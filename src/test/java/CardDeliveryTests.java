@@ -12,7 +12,7 @@ public class CardDeliveryTests {
     private String baseUrl = "http://localhost:9999/";
 
     @Test
-    @DisplayName("Отображается нотификация 'Успешно', если все поля заполнены валидными значениями")
+    @DisplayName("Отображается нотификация 'Успешно' при вводе валидных данных")
     void shouldSuccessIfDataIsValid() {
         open(baseUrl);
         InfoUser validUser = DataGenerator.createValidUserInfo();
