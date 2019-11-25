@@ -1,10 +1,9 @@
 
 public class InfoUser {
-        private String city;
-        private String fullName;
-        private String phone;
-
-
+    private String city;
+    private String fullName;
+    private String phone;
+    //
     public InfoUser(String administrativeCenter, String fullName, String phoneNumber) {
         this.city = administrativeCenter;
         this.fullName = fullName;
